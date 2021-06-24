@@ -1,6 +1,7 @@
 import os
 import choose_word
 
+# choose a word
 topic, level = choose_word.choose_word()
 print(f"https://ejje.weblio.jp/content/{topic}")
 line = input(f"Topic is {topic} (level {level}).\n")
